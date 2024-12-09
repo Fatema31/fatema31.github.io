@@ -196,6 +196,8 @@ $(document).ready(function(){
 
 	$('#mis').click(function(e) {
 
+		console.log('here click');
+		
 		// If the div has already the class active, no need to reload the divs...
 		if(!$(e.target).hasClass('active')) {
 			// Update navbar
@@ -332,6 +334,8 @@ function clearActiveLinks() {
 
 function clearActiveDivs() {
 	$('.container .content .active').each(function() {
+		console.log('this',this);
+		
 		$(this).removeClass('active');
 		$(this).hide();
 	});

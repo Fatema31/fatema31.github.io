@@ -1,6 +1,14 @@
 /* MOBILE's FIRST - Custom properties */
 /* This classes will be then modified for bigger screens */
 
+#top-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
 a {
 	text-decoration-thickness: 1px;
 }
@@ -20,7 +28,7 @@ a {
 
 /* GENERAL CSS */
 #main-content {
-	margin-top: 20px;
+	margin-top: 80px;
 }
 
 li > .active {
