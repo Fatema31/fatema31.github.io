@@ -216,6 +216,41 @@ li > .active {
 	transform: scale(1.03,1.03);
 }
 
+.card-title {
+	color: #1789FF;
+}
+
+.project-color {
+	color: #1789FF !important;
+}
+
+.gap-between {
+	margin-left: 50px;
+}
+
+.project-overview {
+	background-color: #eae7ed;
+}
+
+.experience {
+	margin-bottom: 2rem;
+	padding: 1.5rem;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	background-color: #f9f9f9;
+}
+.experience h5 {
+	color: #0d6efd;
+}
+.experience span {
+	font-size: 0.9rem;
+	color: #6c757d;
+}
+.check-icon {
+	color: #0d6efd;
+	margin-right: 8px;
+}
+
 /* MEDIA QUERIES */
 /* BIGGER SCREENS */
 @media (min-width: 768px) {
