@@ -72,52 +72,40 @@
 							data-en="Bugs and Flowers Detection and Classification  Using YOLOv3 and OpenCV">
 						</h3>
 						<h3 class="text-center project-color">Overview</h3>
-						<p>
-							The project aims to detect whether a given image contains flowers or bugs. The YOLOv3 (You
-							Only Look Once) Algorithm is used to accomplish the task. This algorithm utilizes anchor
-							boxes, which are able to detect multiple objects that can even overlap each other. A non-max
-							suppression algorithm is run on each class to avoid showing multiple boxes for the same
-							object. Three hundred images are collected, containing bugs, flowers, both or none and
-							labeled with the LabelImgtool. Then the YOLOv3 model is trained with the custom dataset. The
-							result shows that the model is able to effectively detect the location of bugs and flowers
-							in most cases. This model has shown some difficulty in detecting bugs in some images.
-							However, it effectively detects multiple overlapping images, which is the case in many of
-							the pictures found.
+						<p class="project-overview">
+							A system was developed to detect whether a given image contains flowers or bugs, leveraging
+							the YOLOv3 (You Only Look Once) algorithm for object detection. This project addressed the
+							challenge of accurately identifying and localizing multiple overlapping objects within
+							images. The approach utilized the YOLOv3 algorithm, which employs anchor boxes for detecting
+							multiple objects, even in cases where objects overlap. To further enhance detection
+							accuracy, a non-max suppression algorithm was applied for each class to eliminate redundant
+							bounding boxes and ensure precise localization.
+							The dataset for this study consisted of 300 images containing various combinations of bugs,
+							flowers, both, or none. These images were manually labeled using the LabelImg tool,
+							providing the annotations required for model training. The YOLOv3 model was trained on this
+							custom dataset to learn the patterns and features necessary for detecting bugs and flowers
+							in diverse scenarios.
 						</p>
-						<p>
-							[By extending the scope to other object classes and improving accuracy with larger and more
-							diverse datasets, the project could become an essential tool in precision agriculture,
-							biodiversity studies, and environmental monitoring.]<br>Or [This project demonstrates
-							practical applications of object detection in domains like ecology and agriculture, where
-							identifying bugs and flowers in images can support tasks such as pest control and plant
-							health monitoring]
-						</p>
-						<p>This project can be used for automated pest detection and crop monitoring in agriculture,
-							wildlife conservation, and environmental research.</p>
-						<p>
-							<strong>Frameworks and Toolkits Used:</strong><br>
-						<ul>
-							<li><strong>Framework:</strong> YOLOv3 (You Only Look Once, version 3)</li>
-							<li><strong>Toolkit:</strong> OpenCV (for image processing and display), NumPy (for
-								numerical operations)</li>
-							<li><strong>Environment:</strong> Python</li>
-							<li><strong>Darknet framework:</strong> Not used directly in the project.</li>
-							<li><strong>Darknet files</strong> (.cfg and .weights): Utilized with OpenCV's DNN module
-							</li>
-						</ul>
-						</p>
-						<h3 class="text-center project-color">Method </h3>
-						<img src="assets/project/project-6-1.jpg" alt="">
-						<img src="assets/project/project-6-2.jpg" alt="">
-						<img src="assets/project/project-6-3.jpg" alt="">
-						<img src="assets/project/project-6-4.jpg" alt="">
-						<img src="assets/project/project-6-5.jpg" alt="">
 						<h3 class="text-center project-color">Result </h3>
-						<img src="assets/project/project-6-1.jpg" alt="">
-						<img src="assets/project/project-6-2.jpg" alt="">
-						<img src="assets/project/project-6-3.jpg" alt="">
-						<img src="assets/project/project-6-4.jpg" alt="">
-						<img src="assets/project/project-6-5.jpg" alt="">
+						<p class="project-overview">
+							The results demonstrated that the model was effective in detecting the location of bugs and
+							flowers in the majority of cases. It performed particularly well in scenarios with
+							overlapping objects, accurately identifying and distinguishing between multiple objects
+							within a single image. However, the model faced challenges in detecting bugs in certain
+							images, indicating areas for potential improvement in the training process or dataset
+							augmentation.
+						</p><br>
+						<img src="assets/project/project-6-1.jpg" alt=""><br><br>
+						<img src="assets/project/project-6-2.jpg" alt=""><br><br>
+						<img src="assets/project/project-6-3.jpg" alt=""><br><br>
+						<img src="assets/project/project-6-4.jpg" alt=""><br><br>
+						<img src="assets/project/project-6-5.jpg" alt=""><br><br>
+						<img src="assets/project/project-6-6.jpg" alt=""><br><br>
+						<p class="project-overview">
+							By extending the scope to other object classes and improving accuracy with larger and more
+							diverse datasets, the project could become an essential tool in precision agriculture,
+							biodiversity studies, and environmental monitoring
+						</p>
 					</div>
 				</div>
 			</div>

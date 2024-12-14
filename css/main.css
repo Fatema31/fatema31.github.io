@@ -230,6 +230,7 @@ li > .active {
 
 .project-overview {
 	background-color: #eae7ed;
+	text-align: justify;
 }
 
 .experience {
