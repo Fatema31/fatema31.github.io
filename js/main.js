@@ -7,6 +7,7 @@ $('#projectsContent').hide();
 $('#tutorialsContent').hide();
 $('#teachingContent').hide();
 $('#misContent').hide();
+$('#extraCurricularContent').hide();
 /* Template
 $('#nameContent').hide();
 */
@@ -209,6 +210,24 @@ $(document).ready(function(){
 
 			// Show current content
 			activateDiv('#misContent');
+		}
+	});
+
+	$('#extraCurricular').click(function(e) {
+
+		console.log('here click11');
+		
+		// If the div has already the class active, no need to reload the divs...
+		if(!$(e.target).hasClass('active')) {
+			// Update navbar
+			clearActiveLinks();
+			activateLink(e);
+
+			// Hide other contents
+			clearActiveDivs();
+
+			// Show current content
+			activateDiv('#extraCurricularContent');
 		}
 	});
 
