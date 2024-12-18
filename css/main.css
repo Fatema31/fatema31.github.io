@@ -256,6 +256,10 @@ li > .active {
 	padding-bottom: 20px;
 }
 
+.margin-bottom-zero {
+	margin-bottom: 0px !important;
+}
+
 /* MEDIA QUERIES */
 /* BIGGER SCREENS */
 @media (min-width: 768px) {
